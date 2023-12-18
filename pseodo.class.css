@@ -1,0 +1,29 @@
+div.box1{
+
+    border:3px solid rgb(236, 71, 71);
+}
+div.box2{
+    border:3px solid rgb(33, 62, 221);
+}
+div.box3{
+     border:3px solid red;
+}
+div.container p:last-child{
+    color: red;
+}
+div.container p:first-of-type{
+    color: blue;
+}
+div.container p:last-of-type{
+    color:green
+}
+/* div.container p:nth-child(2){
+
+    color: pink;
+} */
+/* div.container p:nth-child(odd){
+    color: red;
+} */
+div.container p:nth-child(2n+1){
+    color: aqua;
+}

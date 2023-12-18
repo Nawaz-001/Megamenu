@@ -1,0 +1,30 @@
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+#searchResults {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#searchResults div {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}

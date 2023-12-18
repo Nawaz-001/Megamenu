@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    height: 70vh;
+    line-height: 50px;
+    justify-content: space-around;
+    background-color: rgb(51, 37, 67);
+
+    width: 100vw;
+}
+.footer ul{
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+}
+.footer a{
+   color: rgb(255, 255, 255);
+   font-size: 2vw;
+   
+}
+
+.listing{
+    position: relative;
+    height: 100%;
+    width: 22%;
+}
